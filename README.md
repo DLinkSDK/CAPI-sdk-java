@@ -31,7 +31,7 @@ Step 2: Obtaining the SDK
 <dependency>
   <groupId>dev.deeplink.sdk</groupId>
   <artifactId>capi-sdk-java</artifactId>
-  <version>1.5.6</version>
+  <version>1.7.8</version>
 </dependency>
 
 ```
@@ -117,3 +117,4 @@ Facebook      |  FacebookContext|
 TikTok        |  TikTokContext  |
 Google        |  GoogleContext   |
 Snap chat     |  SnapContext   |
+Applovin      |  ApplovinContext  |
