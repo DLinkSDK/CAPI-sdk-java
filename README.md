@@ -31,7 +31,7 @@ Step 2: Obtaining the SDK
 <dependency>
   <groupId>dev.deeplink.sdk</groupId>
   <artifactId>capi-sdk-java</artifactId>
-  <version>1.8.1</version>
+  <version>1.9.7</version>
 </dependency>
 
 ```
