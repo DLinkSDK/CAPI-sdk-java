@@ -40,14 +40,20 @@ Step 3: Integration Example
 
 Below is an example of using TikTok for reporting to the advertiser:
 
+(1) Initial Configuration
+
 ```java
 
-// 1. Initial Configuration
 TikTokContext ctx = new TikTokContext();
 ctx.setAccessToken("accessToken");
 ctx.setPixelId("pixelCode");
 
-// 2. Business reporting events. For a list of supported events, please refer to the detailed inventory.
+```
+
+(2) Business reporting events. For a list of supported events, please refer to the detailed inventory.
+
+```java
+
 List<PurchaseEvent> events = new ArrayList<>()
 PurchaseEvent event = new PurchaseEvent();
 event.setId(StrUtil.toString(nextId()));
